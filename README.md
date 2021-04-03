@@ -1,4 +1,4 @@
-[![NPM](https://badge.fury.io/js/@someimportantcompany/koa-vhost.svg)](https://npm.im/@someimportantcompany/koa-vhost)
+[![NPM](https://badge.fury.io/js/%40someimportantcompany%2Fkoa-vhost.svg.svg)](https://npm.im/@someimportantcompany/koa-vhost)
 [![CI](https://github.com/someimportantcompany/koa-vhost/actions/workflows/ci.yml/badge.svg)](https://github.com/someimportantcompany/koa-vhost/actions/workflows/ci.yml)
 <!-- [![Coverage](https://coveralls.io/repos/github/someimportantcompany/koa-vhost/badge.svg?branch=master)](https://coveralls.io/github/someimportantcompany/koa-vhost?branch=master) -->
 
