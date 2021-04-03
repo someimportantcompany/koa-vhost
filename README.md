@@ -1,5 +1,5 @@
 [![NPM](https://badge.fury.io/js/@someimportantcompany/koa-vhost.svg)](https://npm.im/@someimportantcompany/koa-vhost)
-[![CI](https://github.com/someimportantcompany/koa-vhost/workflows/Test/badge.svg?branch=master)](https://github.com/someimportantcompany/koa-vhost/actions?query=branch%3Amaster)
+[![CI](https://github.com/someimportantcompany/koa-vhost/actions/workflows/ci.yml/badge.svg)](https://github.com/someimportantcompany/koa-vhost/actions/workflows/ci.yml)
 <!-- [![Coverage](https://coveralls.io/repos/github/someimportantcompany/koa-vhost/badge.svg?branch=master)](https://coveralls.io/github/someimportantcompany/koa-vhost?branch=master) -->
 
 Virtual host splitting for [Koa.js](https://koajs.com) v2.
