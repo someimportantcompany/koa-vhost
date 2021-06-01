@@ -2,11 +2,11 @@
   "name": "@someimportantcompany/koa-vhost",
   "version": "1.0.0",
   "description": "Virtual host support for Koa",
-  "main": "index.js",
+  "main": "koa-vhost.js",
   "scripts": {
     "dev": "nodemon example.js",
     "lint": "eslint .",
-    "test": "nyc --reporter=lcov --reporter=text --exclude *.test.js mocha ./index.test.js",
+    "test": "nyc --reporter=lcov --reporter=text --exclude *.test.js mocha ./*.test.js",
     "preversion": "npm test",
     "postversion": "git push && git push --tags"
   },
@@ -20,7 +20,7 @@
     "vhost"
   ],
   "files": [
-    "./index.js"
+    "./koa-vhost.js"
   ],
   "_moduleAliases": {
     "koa-vhost": "./"
