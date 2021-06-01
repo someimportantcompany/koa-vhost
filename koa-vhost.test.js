@@ -1,14 +1,10 @@
-require('module-alias/register');
 const assert = require('assert');
 const integration = require('mocha-axios');
 const Koa = require('koa');
-const moduleAlias = require('module-alias');
 const rewire = require('rewire');
 
-moduleAlias.addAlias('koa-vhost', __dirname);
-
 describe('koa-vhost', () => {
-  const vhost = rewire('./index');
+  const vhost = rewire('koa-vhost');
 
   describe('middleware', () => {
     const app = new Koa();
