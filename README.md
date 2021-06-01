@@ -1,6 +1,6 @@
-[![NPM](https://badge.fury.io/js/%40someimportantcompany%2Fkoa-vhost.svg.svg)](https://npm.im/@someimportantcompany/koa-vhost)
+[![NPM](https://badge.fury.io/js/%40someimportantcompany%2Fkoa-vhost.svg)](https://npm.im/@someimportantcompany/koa-vhost)
 [![CI](https://github.com/someimportantcompany/koa-vhost/actions/workflows/ci.yml/badge.svg)](https://github.com/someimportantcompany/koa-vhost/actions/workflows/ci.yml)
-<!-- [![Coverage](https://coveralls.io/repos/github/someimportantcompany/koa-vhost/badge.svg?branch=master)](https://coveralls.io/github/someimportantcompany/koa-vhost?branch=master) -->
+[![Coverage](https://coveralls.io/repos/github/someimportantcompany/koa-vhost/badge.svg)](https://coveralls.io/github/someimportantcompany/koa-vhost)
 
 Virtual host splitting for [Koa.js](https://koajs.com) v2.
 
@@ -113,4 +113,8 @@ server s2 or s3
 Option | Description
 ---- | ----
 `hosts` | Either a `Function`, `Array`, `RegExp` or `String` of the hosts to match.
-`middleware` | Middleware to execute if the hostname matches.
+`middleware` | Middleware `Function` to execute if the hostname matches.
+
+## Notes
+
+- Any questions or suggestions please [open an issue](https://github.com/someimportantcompany/koa-vhost/issues).
