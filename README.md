@@ -2,6 +2,9 @@
 [![CI](https://github.com/someimportantcompany/koa-vhost/actions/workflows/ci.yml/badge.svg)](https://github.com/someimportantcompany/koa-vhost/actions/workflows/ci.yml)
 [![Coverage](https://coveralls.io/repos/github/someimportantcompany/koa-vhost/badge.svg)](https://coveralls.io/github/someimportantcompany/koa-vhost)
 
+> [!WARNING]
+> **No longer maintained**
+
 Virtual host splitting for [Koa.js](https://koajs.com) v2.
 
 ## Install
